@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1444570014 source:i:\c++\classexample\function.cpp
+	<iostream>
+	"class.h"
+
+1444569593 i:\c++\classexample\class.h
+

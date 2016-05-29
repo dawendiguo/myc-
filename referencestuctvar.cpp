@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+struct Date
+{int month;
+	int day;
+	int year;
+};
+struct Student
+{int num;
+	char name[20];
+	char sex;
+	Date birthday;
+	float score;
+}student1,student2={10002,"wang li",'f',5,23,1982,89.5};
+int main()
+{//struct Student student2
+student1=student2;
+	cout<<student1.num<<endl;
+	cout<<student1.name<<endl;
+	cout<<student1.birthday.month<<'/'<<student1.birthday.day<<'/'<<student1.birthday.year<<endl;
+	cout<<student1.score<<endl;
+	return 0;
+}
+

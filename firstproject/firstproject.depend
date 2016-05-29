@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1444567819 source:i:\c++\firstproject\function.cpp
+	"class.h"
+
+1444568304 i:\c++\firstproject\class.h
+
+1444568340 source:i:\c++\firstproject\main.cpp
+	<iostream>
+	"class.h"
+
